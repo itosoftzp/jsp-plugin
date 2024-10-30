@@ -1,0 +1,21 @@
+[
+    {
+      "title": "POST Data ProcessTools",
+      "properties": [
+        {
+          "name": "url",
+          "label": "URL Web Service",
+          "type": "textfield",
+          "validation_message": "isikan URL",
+          "required":"true"
+        },
+        {
+            "name":"parentId",
+            "label": "Parent ID",
+            "type": "textfield",
+            "validation_message": "isikan dengan Parent ID data Request",
+            "required":"true"
+        }
+      ]
+    }
+  ]

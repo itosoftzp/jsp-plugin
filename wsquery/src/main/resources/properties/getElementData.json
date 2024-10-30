@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Element Validator",
+      "properties": [
+        {
+          "name": "mandatory",
+          "label": "Mandatory",
+          "type": "checkbox",
+          "value": "true",
+          "options": [
+            {
+              "value": "true",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "name": "variableValidator",
+          "label": "Variable",
+          "type": "textfield",
+          "validation_message": "Invalid value"
+        },
+        {
+          "name": "isMandatory",
+          "label": "isMandatory",
+          "type": "textfield",
+          "validation_message": "Invalid value"
+        },
+        {
+          "name": "message",
+          "label": "Error Message",
+          "type": "textfield",
+          "validation_message": "Invalid value"
+        }
+      ]
+    }
+  ]
